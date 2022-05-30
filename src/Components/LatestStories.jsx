@@ -35,7 +35,9 @@ const LatestStories = () => {
                                 </div>
                             )
                         }
+                        return (index);
                     }
+                    
                     )
                     }
                     {  // eslint-disable-next-line
@@ -84,12 +86,8 @@ const LatestStories = () => {
                                 )
                             }
                         }
-
                         )
                     }
-
-
-
                 </div>
             </>
         </div>

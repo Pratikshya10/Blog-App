@@ -129,14 +129,9 @@ const LatestArticles = () => {
                                     </div>
                                 </div>
                             )
-
-                    }
-
-
+                        }
                     )
-
                 }
-
 
             </div>
             <div className="lastest-articles-right">
@@ -164,9 +159,8 @@ const LatestArticles = () => {
                                 </div>
                             )
                         }
+                        return (index);
                     }
-
-
                     )
                 }
                 {
@@ -189,9 +183,8 @@ const LatestArticles = () => {
                                 </div>
                             )
                         }
+                        return (index);
                     }
-
-
                     )
                 }
 
@@ -215,9 +208,8 @@ const LatestArticles = () => {
                                 </div>
                             )
                         }
+                        return (index);
                     }
-
-
                     )
                 }
                 {
@@ -240,9 +232,8 @@ const LatestArticles = () => {
                                 </div>
                             )
                         }
+                        return (index);
                     }
-
-
                     )
                 }
                 {
@@ -265,9 +256,8 @@ const LatestArticles = () => {
                                 </div>
                             )
                         }
+                        return (index);
                     }
-
-
                     )
                 }
             </div>

@@ -81,12 +81,14 @@ const DataComponent = () => {
                     description: view.description,
                 })
             }
-        });
-    })
+        }
+      );
+    });
     useEffect(() => {
         Bollywood.forEach((view) => {
             if (view.id === id) {
                 // console.log("data-matched");
+                return (
                 setdata({
                     image: view.image,
                     name: view.name,
@@ -94,6 +96,7 @@ const DataComponent = () => {
                     date: view.date,
                     description: view.description,
                 })
+                )
             }
         });
     })
