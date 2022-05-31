@@ -39,7 +39,7 @@ const DataComponent = () => {
                 })
             }
         });
-    })
+    },[id,Tourist]);
 
     useEffect(() => {
         Fitness.forEach((view) => {
@@ -54,7 +54,7 @@ const DataComponent = () => {
                 })
             }
         });
-    })
+    },[id,Fitness]);
     useEffect(() => {
         Food.forEach((view) => {
             if (view.id === id) {
@@ -68,7 +68,7 @@ const DataComponent = () => {
                 })
             }
         });
-    })
+    },[id,Food]);
     useEffect(() => {
         Technology.forEach((view) => {
             if (view.id === id) {
@@ -83,7 +83,7 @@ const DataComponent = () => {
             }
         }
       );
-    });
+    },[id,Technology]);
     useEffect(() => {
         Bollywood.forEach((view) => {
             if (view.id === id) {
@@ -99,7 +99,7 @@ const DataComponent = () => {
                 )
             }
         });
-    })
+    },[id,Bollywood]);
     return (
         <>
             <div className="Dynamic-component">
@@ -126,4 +126,4 @@ const DataComponent = () => {
     )
 }
 
-export default DataComponent
+export default DataComponent;
